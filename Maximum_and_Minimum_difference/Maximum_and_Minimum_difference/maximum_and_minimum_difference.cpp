@@ -3,7 +3,8 @@
 #include<algorithm>
 using namespace std;
 void result(vector<int>&a, int n);
-int main()
+/*
+void main()
 {
 	int num;
 	while (cin >> num)
@@ -17,14 +18,14 @@ int main()
 		}
 		result(data, num);
 	}
-	return 0;
 }
-
+*/
 void result(vector<int>&a, int n)
 {
 	if (n > 1)
 	{
 		sort(a.begin(), a.end());
+		
 		int m1 = 1;
 		int m2 = 1;
 		for (int i = 0; i < n - 1; ++i)
