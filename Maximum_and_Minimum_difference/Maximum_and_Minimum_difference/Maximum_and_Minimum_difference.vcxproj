@@ -145,7 +145,8 @@
     <ClCompile Include="lowercase_and_uppercase_letters.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="maximum_and_minimum_difference.cpp" />
-    <ClCompile Include="test.cpp" />
+    <ClCompile Include="test_memory_pointer.cpp" />
+    <ClCompile Include="test_file.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="test.h" />
